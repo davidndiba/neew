@@ -7,16 +7,24 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
     "antd": "^5.12.8",
+    "autoprefixer": "^10.4.16",
     "craco-less": "^3.0.1",
+    "css-loader": "^6.9.0",
+    "postcss": "^8.4.33",
+    "postcss-loader": "^7.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
-    "typescript": "^4.4.2",
+    "style-loader": "^3.3.4",
+    "switch": "^0.0.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -41,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3"
   }
 }

@@ -1,0 +1,5 @@
+/* src/styles/antd-tailwind.css */
+@import '~antd/dist/antd.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
