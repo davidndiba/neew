@@ -88,7 +88,7 @@ const data: DataType[] = [
   },
 ];
 
-const Overview: React.FC = () => {
+const Server: React.FC = () => {
   return (
     <div>
       <Layout>
@@ -195,4 +195,4 @@ const Overview: React.FC = () => {
   );
 };
 
-export default Overview;
+export default Server;
