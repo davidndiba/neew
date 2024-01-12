@@ -45,7 +45,6 @@ const App: React.FC = () => {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* Add more routes for additional pages */}
       </Routes>
     </Router>
   );
