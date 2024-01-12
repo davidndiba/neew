@@ -2,6 +2,7 @@ import { Layout, Card, Row, Col, Typography, Avatar, Table, Tag, Space } from 'a
 import React from 'react';
 import { Menu } from 'antd'
 import { Progress } from 'antd'
+import { Link } from 'react-router-dom'
 
 const { Header, Footer, Sider, Content } = Layout;
 const { Text } = Typography;
@@ -91,19 +92,35 @@ const Overview: React.FC = () => {
   return (
     <div>
       <Layout>
-        <Sider>
-        <Menu>
-           <h1>D2S Data Exchange</h1>
-         <Menu.Item key="1">Dashboard</Menu.Item>
-         <Menu.Item key="2">Servers</Menu.Item>
-         <Menu.Item key="3">Exchange Servers</Menu.Item>
-         <Menu.Item key="4">Mapping</Menu.Item>
-         <Menu.Item key="5">Messages</Menu.Item>
-         <Menu.Item key="6">Notification</Menu.Item>
-         <Menu.Item key="7">Reports</Menu.Item>
-         <Menu.Item key="8">User Settings</Menu.Item>
-       </Menu>
-        </Sider>
+      <Sider>
+      <Menu theme="dark" mode="inline">
+        <h1>D2S Data Exchange</h1>
+        <Menu.Item key="1">
+          <Link to="/">Dashboard</Link>
+        </Menu.Item>
+        <Menu.Item key="2">
+          <Link to="/servers">Servers</Link>
+        </Menu.Item>
+        <Menu.Item key="3">
+          <Link to="/exchange-servers">Exchange Servers</Link>
+        </Menu.Item>
+        <Menu.Item key="4">
+          <Link to="/mapping">Mapping</Link>
+        </Menu.Item>
+        <Menu.Item key="5">
+          <Link to="/messages">Messages</Link>
+        </Menu.Item>
+        <Menu.Item key="6">
+          <Link to="/notification">Notification</Link>
+        </Menu.Item>
+        <Menu.Item key="7">
+          <Link to="/reports">Reports</Link>
+        </Menu.Item>
+        <Menu.Item key="8">
+          <Link to="/user-settings">User Settings</Link>
+        </Menu.Item>
+      </Menu>
+    </Sider>
         <Layout>
           <Header>
           <Text style={{color:"white"}} type="secondary">Home</Text>
